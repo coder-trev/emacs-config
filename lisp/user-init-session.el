@@ -28,7 +28,7 @@
 ;; no need for ~ file when editing
 (setq create-lockfiles nil)
 
-(message "config-session")
+(message "config session")
 (provide 'user-init-session)
 
 ;;; user-init-session.el ends here

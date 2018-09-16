@@ -7,10 +7,10 @@
 
 ;;; Code:
 
-
 (defun init-web-mode ()
   (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
   (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+  (add-to-list 'auto-mode-alist '("\\.js?\\'" . web-mode))
 
   (setq web-mode-enable-block-face t)
   (setq web-mode-enable-part-face t)

@@ -22,7 +22,7 @@
 ;; open now
 (setq ido-use-virtual-buffers t)
 
-(message "config-ido")
+(message "config ido")
 (provide 'user-init-ido)
 
 ;;; user-init-ido.el ends here

@@ -15,7 +15,7 @@
 ;; full path in title bar
 (setq-default frame-title-format "%b (%f)")
 
-(message "config-frame")
+(message "config frame")
 (provide 'user-init-frame)
 
 ;;; user-init-frame.el ends here

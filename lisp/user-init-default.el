@@ -88,7 +88,7 @@
 ;; cleanup whitespace before saving file
 (add-hook 'before-save-hook #'whitespace-cleanup)
 
-(message "config-default")
+(message "config default")
 (provide 'user-init-default)
 
 ;;; user-init-default.el ends here

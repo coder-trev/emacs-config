@@ -7,7 +7,6 @@
 
 ;;; Code:
 
-
 (require 'package)
 
 (add-to-list 'package-archives

@@ -9,8 +9,7 @@
 
 
 (defun init-yasnippet ()
-  (yas-global-mode 1)
-  (add-to-list 'yas-snippet-dirs "~/.emacs.d/snippets"))
+  (yas-global-mode 1))
 
 (add-hook 'after-init-hook #'init-yasnippet)
 
