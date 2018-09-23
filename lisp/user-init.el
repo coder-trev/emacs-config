@@ -19,10 +19,11 @@
 (require 'user-init-web-mode)
 (require 'user-init-slime)
 (require 'user-init-theme)
-(require 'user-init-elisp)
+(require 'user-init-lisp)
 (require 'user-init-git)
 (require 'user-init-yasnippet)
 (require 'user-init-emmet)
+(require 'user-init-mc)
 
 (provide 'user-init)
 

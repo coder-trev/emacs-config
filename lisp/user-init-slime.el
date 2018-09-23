@@ -7,10 +7,10 @@
 
 ;;; Code:
 
-(defun common-lisp-interpreter ()
+(defun set-common-lisp-interpreter ()
   (setq inferior-lisp-program "sbcl"))
 
-(add-hook 'after-init-hook #'common-lisp-interpreter)
+(add-hook 'after-init-hook #'set-common-lisp-interpreter)
 
 (message "config slime")
 (provide 'user-init-slime)

@@ -7,7 +7,7 @@
 ;;; Code:
 
 ;; emacs initial size
-(setq initial-frame-alist '((top . 0) (left . -1) (width . 80) (height . 48)))
+(setq initial-frame-alist '((top . 150) (left . 0) (width . 170) (height . 49)))
 
 ;; increase font size for readability
 (set-face-attribute 'default nil :height 120)
