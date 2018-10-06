@@ -1,9 +1,10 @@
 ;;; user-init-slime.el --- Configuration for slime
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
 

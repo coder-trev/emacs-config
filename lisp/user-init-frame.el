@@ -1,13 +1,15 @@
 ;;; user-init-frame.el --- Configuration of initial frame
 
+;;
 
 ;;; Commentary:
 
+;;
 
 ;;; Code:
 
 ;; emacs initial size
-(setq initial-frame-alist '((top . 150) (left . 0) (width . 170) (height . 49)))
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 157) (height . 44)))
 
 ;; increase font size for readability
 (set-face-attribute 'default nil :height 120)

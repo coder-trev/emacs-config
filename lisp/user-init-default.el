@@ -1,9 +1,10 @@
 ;;; user-init-default.el --- Configuration changes on emacs default values
 
+;;
 
 ;;; Commentary:
-;; Default values for global environment
 
+;; Default values for global environment
 
 ;;; Code:
 
@@ -68,6 +69,9 @@
 ;; enable electric pair mode
 (electric-pair-mode t)
 
+;; enable smooth scrolling
+(setq scroll-conservatively 10000)
+
 ;; set default directory
 (setq default-directory "~/")
 
@@ -84,6 +88,16 @@
 
 ;; automatic syntax highlighting
 (global-font-lock-mode t)
+
+;; setup garbage collection
+(defun my-minibuffer-setup-hook ()
+  (setq gc-cons-threshold most-positive-fixnum))
+
+(defun my-minibuffer-exit-hook ()
+  (setq gc-cons-threshold 800000))
+
+(add-hook 'minibuffer-setup-hook #'my-minibuffer-setup-hook)
+(add-hook 'minibuffer-exit-hook #'minibuffer-exit-hook)
 
 ;; cleanup whitespace before saving file
 (add-hook 'before-save-hook #'whitespace-cleanup)

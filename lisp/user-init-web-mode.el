@@ -1,9 +1,10 @@
 ;;; user-init-web-mode.el --- Configuration for web-mode
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
 

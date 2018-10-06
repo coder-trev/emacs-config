@@ -1,10 +1,10 @@
 ;;; user-init-ido.el --- Configuration of ido mode
 
-
+;;
 
 ;;; Commentary:
 
-
+;;
 
 ;;; Code:
 

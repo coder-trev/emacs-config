@@ -1,12 +1,12 @@
 ;;; user-init-yasnippet.el --- Configuration for yasnippet
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
-
 
 (defun init-yasnippet ()
   (yas-global-mode 1))

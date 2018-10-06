@@ -1,9 +1,10 @@
 ;;; user-init-mc.el -- Configuration for multiple cursors
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
 

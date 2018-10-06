@@ -1,9 +1,10 @@
 ;;; user-init-emmet.el --- Configuration of emmet
 
-
-;;; Commentary
 ;;
 
+;;; Commentary
+
+;;
 
 ;;; Code
 
@@ -18,7 +19,6 @@
 
 (add-hook 'web-mode-hook #'init-emmet-mode)
 (add-hook 'css-mode-hook #'init-emmet-mode)
-
 
 (message "config emmet")
 (provide 'user-init-emmet)

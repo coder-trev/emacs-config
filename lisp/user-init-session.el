@@ -1,8 +1,10 @@
 ;;; user-init-session.el --- Configuration for file use in emacs
 
+;;
 
 ;;; Commentary:
 
+;;
 
 ;;; Code:
 

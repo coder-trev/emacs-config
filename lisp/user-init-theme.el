@@ -1,12 +1,12 @@
 ;;; user-init-theme.el --- Configure color theme
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
-
 
 (defun init-theme (theme hash)
   "Initialize a theme"

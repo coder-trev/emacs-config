@@ -1,9 +1,10 @@
 ;;; user-init.el --- User initialization file
 
+;;
 
 ;;; Commentary:
-;; Init packages
 
+;; Init packages
 
 ;;; Code:
 
@@ -20,7 +21,7 @@
 (require 'user-init-slime)
 (require 'user-init-theme)
 (require 'user-init-lisp)
-(require 'user-init-git)
+(require 'user-init-git-gutter)
 (require 'user-init-yasnippet)
 (require 'user-init-emmet)
 (require 'user-init-mc)

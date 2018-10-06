@@ -1,9 +1,10 @@
 ;;; user-init-company.el --- Configuration for company mode
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
 
@@ -12,7 +13,7 @@
   (ac-php-core-eldoc-setup)
   (add-to-list 'company-backends #'company-ac-php-backend))
 
-(add-hook 'after-init-hook #'init-company-mode)
+(add-hook 'prog-mode-hook #'init-company-mode)
 
 (message "config company")
 (provide 'user-init-company)

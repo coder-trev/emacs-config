@@ -1,9 +1,10 @@
 ;;; user-init-packages.el --- Configure packages
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
 
@@ -32,6 +33,7 @@
 		    php-mode
 		    rainbow-delimiters
 		    git-gutter-fringe
+		    fringe-helper
 		    whitespace-cleanup-mode
 		    highlight-indentation
 		    which-key

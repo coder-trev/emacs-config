@@ -1,9 +1,10 @@
 ;;; user-init-custom.el --- Add custom commands to emacs
 
+;;
 
 ;;; Commentary:
-;; custom functionality
 
+;; custom functionality
 
 ;;; Code:
 

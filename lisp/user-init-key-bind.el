@@ -1,10 +1,11 @@
 ;;; user-init-key-bind.el --- Global key-bindings
 
+;;
 
 ;;; Commentary:
+
 ;; The functions bound are either global or defined in
 ;; user-init-custom.el
-
 
 ;;; Code:
 

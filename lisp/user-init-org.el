@@ -1,12 +1,12 @@
 ;;; user-init-org --- Configure org mode
 
-
-;;; Commentary:
 ;;
 
+;;; Commentary:
+
+;;
 
 ;;; Code:
-
 
 ;; setup remember.el
 (setq org-directory "~/org")
@@ -15,7 +15,7 @@
 ;; fontify code in code blocks
 (setq org-src-fontify-natively t)
 
-(define-key global-map (kbd "C-cc") #'org-capture)
+(define-key global-map (kbd "C-c c") #'org-capture)
 
 (message "config org-mode")
 (provide 'user-init-org)
