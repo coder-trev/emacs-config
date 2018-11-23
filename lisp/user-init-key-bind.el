@@ -15,6 +15,8 @@
 (global-set-key (kbd "C-x C-n") #'other-window)
 (global-set-key (kbd "C-x C-p") #'other-window-backward)
 
+(global-set-key (kbd "C-c t") #'transpose-windows)
+
 (global-set-key (kbd "C-q") #'scroll-n-lines-ahead)
 (global-set-key (kbd "C-z") #'scroll-n-lines-behind)
 
@@ -37,7 +39,7 @@
 ;; recentf
 (global-set-key (kbd "C-x C-r") #'recentf-open-files)
 
-;; custom bindings for user-init-custom.el
+;; misc
 (global-set-key (kbd "C-c D") #'delete-file-and-buffer)
 (global-set-key (kbd "C-c R") #'rename-file-and-buffer)
 
